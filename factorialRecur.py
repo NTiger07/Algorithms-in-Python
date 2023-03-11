@@ -1,9 +1,5 @@
 def factorialRecur(n):
-    if n ==1:
-        return n
-    else:
-        factorial = factorialRecur(n - 1)
-        factorial = factorial * n
-    return factorial
+    if n == 1: return n
+    else: return n * factorialRecur(n - 1)
     
 print(factorialRecur(5))
