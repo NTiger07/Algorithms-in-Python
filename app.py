@@ -10,6 +10,7 @@ def permuteRecur(string, pocket=""):
             tail = string[i+1:]
             together = head + tail
             permuteRecur(together, letter + pocket)
+        # print(len(permuteRecur))
             
 permuteRecur("ABCD", "")
             
