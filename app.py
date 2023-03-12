@@ -1,3 +1,1 @@
-# print("Que miras bobo")
-
-
+print("Que miras bobo")
