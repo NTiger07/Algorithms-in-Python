@@ -1,3 +1,12 @@
 For writing a function for finding the factorial of a number, 
-the iterstive approach is faster than the recursive approach 
+the iterative approach is faster than the recursive approach 
 as it takes less time and resources.
+
+
+
+a b c
+a c b
+b a c
+b c a
+c a b
+c b a
