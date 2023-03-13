@@ -4,11 +4,13 @@ def permutations(str):
     
     for permutation in range(factorial(len(str))):
         str= list(str)
-        indexOfFirstValue = 0
-        
         print(str)
         
-        indexOfFirstValue += 1
+        indexOfLastValue = len(str) - 1
+        
+        while len(str) >= 2 and str[indexOfLastValue - 1] > str[indexOfLastValue]:
+            indexOfLastValue -= 1
+        
         
         
 
