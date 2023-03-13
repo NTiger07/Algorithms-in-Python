@@ -3,7 +3,7 @@ from math import factorial
 
 def permutations(str):
     for permutation in range(factorial(len(str))):
-        
+    
         print(str)
         # print(" ".join(str))
         indexOfLastValue = len(str) - 1 #index of last element
