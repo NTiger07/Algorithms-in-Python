@@ -1,16 +1,19 @@
 # print("Que miras bobo")
 def binarySearchRecur(array:list, target:int):
-    start = array[0]
+    start = 0
     end = len(array) - 1
     
     while start <= end:
+        
         mid = (start + end) // 2
         
         if array[mid] < target:
             start = mid + 1
+            binarySearchRecur(array, target)
             
         elif array[mid] > target:
             end = mid - 1
+            binarySearchRecur(array, target)
             
         else:
             return mid

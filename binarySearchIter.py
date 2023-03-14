@@ -1,5 +1,5 @@
 def binarySearchIter(array:list, target:int):
-    start = array[0]
+    start = 0
     end = len(array) - 1
     
     while start <= end:
