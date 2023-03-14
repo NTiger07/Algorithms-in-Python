@@ -1,4 +1,4 @@
-def binarySearch(array:list, target:int):
+def binarySearchIter(array:list, target:int):
     start = array[0]
     end = len(array) - 1
     
@@ -15,4 +15,4 @@ def binarySearch(array:list, target:int):
             return mid
     return start
 
-print(binarySearch([1, 2, 3, 4, 5], 4))
+print(binarySearchIter([1, 2, 3, 4, 5], 4))
