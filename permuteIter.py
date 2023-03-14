@@ -1,5 +1,5 @@
 from math import factorial
-
+#NO COMPRENDO
 def permutations(str):
     
     for permutation in range(factorial(len(str))):
